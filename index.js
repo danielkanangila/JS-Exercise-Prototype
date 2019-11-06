@@ -121,10 +121,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Wehen is invoked in gobal scope, the value of "this" will be the window in the browser or console Object in Node.
+  2. When is invoked in implicit binding object, the value of "this" will be the object standing before the dot.
+  3. When is invoked in instatiate object create with "new" keyword, "this" refers to the instance of the created object.
+  4. "this" is explicitly binding when  using JavaScript methods "call" or "apply".
 */
 
 
